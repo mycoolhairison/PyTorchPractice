@@ -82,7 +82,7 @@ testData = datasets.MNIST(root = "data", train = False, download=True, transform
 trainDataLoader = DataLoader(trainingData, batch_size=batchSize, shuffle=True)
 testDataLoader = DataLoader(testData, batch_size=batchSize, shuffle=False)
 
-#showSampleData(trainingData,8)
+#showSampleData(trainingData)
 
 learningRate = .75
 epochs = 10
