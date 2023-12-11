@@ -1,3 +1,5 @@
+## This script trains a simple neural net to achieve ~99.3% accuracy on the MNIST dataset.
+
 import torch
 from torch import nn
 from torchvision import datasets
