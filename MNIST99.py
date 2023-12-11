@@ -74,7 +74,6 @@ def testLoop(dataloader, model, lossFunction, show):
     correct/=sz
     print(f"Test Error: \n Accuracy: {(100*correct):>0.2f}%, Avg loss: {testLoss:>8f} \n")
 
-
 model = NeuralNet()
 batchSize = 64
 
