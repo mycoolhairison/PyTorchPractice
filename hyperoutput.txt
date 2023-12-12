@@ -1,0 +1,497 @@
+Training with linear layers [512, 16], batch size 64, learning rate/decay 0.5/0.8
+E1: 97.65%
+E2: 98.90%
+E3: 98.99%
+E4: 99.19%
+E5: 98.95%
+E6: 99.22%
+E7: 99.21%
+E8: 99.25%
+E9: 99.24%
+Achieved 99.24% accuracy after 9 epochs in time 04:15
+
+Training with linear layers [512, 16], batch size 64, learning rate/decay 0.2/0.8
+E1: 98.30%
+E2: 98.78%
+E3: 99.00%
+E4: 99.14%
+E5: 99.13%
+E6: 99.18%
+E7: 99.22%
+E8: 99.29%
+E9: 99.28%
+E10: 99.28%
+Achieved 99.28% accuracy after 10 epochs in time 04:45
+
+Training with linear layers [512, 16], batch size 64, learning rate/decay 0.4/0.9
+E1: 98.26%
+E2: 98.99%
+E3: 98.39%
+E4: 98.92%
+E5: 99.28%
+E6: 99.26%
+E7: 99.20%
+E8: 99.23%
+E9: 99.22%
+Achieved 99.22% accuracy after 9 epochs in time 04:16
+
+Training with linear layers [512, 16], batch size 64, learning rate/decay 0.3/0.9
+E1: 97.85%
+E2: 98.61%
+E3: 98.80%
+E4: 99.12%
+E5: 98.35%
+E6: 98.95%
+E7: 99.18%
+E8: 99.07%
+E9: 99.20%
+E10: 99.27%
+E11: 99.26%
+E12: 99.25%
+Achieved 99.25% accuracy after 12 epochs in time 05:44
+
+Training with linear layers [512, 16], batch size 16, learning rate/decay 0.4/0.9
+E1: 96.77%
+E2: 98.57%
+E3: 98.73%
+E4: 99.09%
+E5: 98.85%
+E6: 99.04%
+E7: 99.11%
+E8: 99.14%
+E9: 99.32%
+E10: 99.20%
+E11: 99.23%
+E12: 99.26%
+E13: 99.25%
+Achieved 99.25% accuracy after 13 epochs in time 08:51
+
+Training with linear layers [512, 16], batch size 16, learning rate/decay 0.3/0.9
+E1: 98.41%
+E2: 97.44%
+E3: 98.45%
+E4: 98.94%
+E5: 99.19%
+E6: 99.04%
+E7: 99.21%
+E8: 99.17%
+E9: 99.29%
+E10: 99.31%
+E11: 99.34%
+E12: 99.33%
+-----------------------------------LOOK AT ME-----------------------------------
+Achieved 99.33% accuracy after 12 epochs in time 08:10
+-----------------------------------LOOK AT ME-----------------------------------
+
+Training with linear layers [512, 16], batch size 64, learning rate/decay 0.5/0.5
+E1: 97.57%
+E2: 98.90%
+E3: 98.93%
+E4: 99.15%
+E5: 99.22%
+E6: 99.23%
+E7: 99.26%
+E8: 99.25%
+Achieved 99.25% accuracy after 8 epochs in time 03:47
+
+Training with linear layers [512, 16], batch size 64, learning rate/decay 0.2/0.5
+E1: 95.96%
+E2: 98.58%
+E3: 98.79%
+E4: 98.84%
+E5: 98.86%
+E6: 98.90%
+E7: 98.86%
+Achieved 98.86% accuracy after 7 epochs in time 03:19
+
+Training with linear layers [512, 16], batch size 16, learning rate/decay 0.5/0.8
+E1: 10.09%
+Achieved 10.09% accuracy after 1 epochs in time 00:42
+
+Training with linear layers [512, 16], batch size 16, learning rate/decay 0.2/0.8
+E1: 98.30%
+E2: 99.04%
+E3: 98.96%
+E4: 99.23%
+E5: 99.32%
+E6: 99.34%
+E7: 99.29%
+E8: 99.32%
+-----------------------------------LOOK AT ME-----------------------------------
+Achieved 99.32% accuracy after 8 epochs in time 05:25
+-----------------------------------LOOK AT ME-----------------------------------
+
+Training with linear layers [512, 16], batch size 256, learning rate/decay 0.5/0.8
+E1: 95.34%
+E2: 95.35%
+E3: 97.98%
+E4: 98.52%
+E5: 98.91%
+E6: 98.86%
+E7: 98.97%
+E8: 98.96%
+E9: 99.12%
+E10: 99.12%
+E11: 99.02%
+E12: 99.11%
+E13: 99.10%
+E14: 99.07%
+E15: 99.11%
+Achieved 99.11% accuracy after 15 epochs in time 05:58
+
+Training with linear layers [512, 16], batch size 256, learning rate/decay 0.2/0.8
+E1: 94.33%
+E2: 97.34%
+E3: 97.97%
+E4: 97.72%
+Achieved 97.72% accuracy after 4 epochs in time 01:35
+
+Training with linear layers [512, 16], batch size 64, learning rate/decay 0.01/1
+E1: 79.68%
+E2: 85.82%
+E3: 94.10%
+E4: 96.23%
+Achieved 96.23% accuracy after 4 epochs in time 01:54
+
+Training with linear layers [512, 16], batch size 16, learning rate/decay 0.01/1
+E1: 95.47%
+E2: 97.47%
+E3: 98.01%
+E4: 98.50%
+E5: 98.49%
+E6: 98.81%
+E7: 98.88%
+E8: 98.82%
+E9: 98.84%
+Achieved 98.84% accuracy after 9 epochs in time 06:07
+
+Training with linear layers [1024, 512, 16], batch size 64, learning rate/decay 0.5/0.8
+E1: 98.59%
+E2: 98.58%
+E3: 98.58%
+E4: 99.22%
+E5: 99.33%
+E6: 99.30%
+E7: 99.23%
+E8: 99.41%
+E9: 99.34%
+E10: 99.41%
+E11: 99.39%
+-----------------------------------LOOK AT ME-----------------------------------
+Achieved 99.39% accuracy after 11 epochs in time 05:50
+-----------------------------------LOOK AT ME-----------------------------------
+
+Training with linear layers [512, 512, 16], batch size 64, learning rate/decay 0.5/0.8
+E1: 98.21%
+E2: 98.94%
+E3: 98.72%
+E4: 98.90%
+E5: 99.20%
+E6: 99.23%
+E7: 99.26%
+E8: 99.27%
+Achieved 99.27% accuracy after 8 epochs in time 03:52
+
+Training with linear layers [512, 16, 16], batch size 64, learning rate/decay 0.5/0.8
+E1: 96.16%
+E2: 97.00%
+E3: 98.80%
+E4: 98.95%
+E5: 99.00%
+E6: 98.96%
+E7: 99.13%
+E8: 99.13%
+E9: 99.11%
+E10: 99.14%
+Achieved 99.14% accuracy after 10 epochs in time 04:46
+
+Training with linear layers [2048, 16], batch size 64, learning rate/decay 0.5/0.8
+E1: 98.10%
+E2: 98.91%
+E3: 99.06%
+E4: 98.71%
+E5: 99.13%
+E6: 99.22%
+E7: 99.30%
+E8: 99.28%
+E9: 99.34%
+E10: 99.33%
+-----------------------------------LOOK AT ME-----------------------------------
+Achieved 99.33% accuracy after 10 epochs in time 05:58
+-----------------------------------LOOK AT ME-----------------------------------
+
+Training with linear layers [1024, 256, 16], batch size 64, learning rate/decay 0.5/0.8
+E1: 97.64%
+E2: 98.83%
+E3: 98.33%
+E4: 99.23%
+E5: 99.22%
+E6: 99.27%
+E7: 99.27%
+Achieved 99.27% accuracy after 7 epochs in time 03:39
+
+Training with linear layers [1024], batch size 64, learning rate/decay 0.5/0.8
+E1: 98.13%
+E2: 98.36%
+E3: 98.72%
+E4: 98.91%
+E5: 99.17%
+E6: 98.99%
+E7: 99.25%
+E8: 99.32%
+E9: 99.26%
+E10: 99.28%
+Achieved 99.28% accuracy after 10 epochs in time 05:17
+
+Training with linear layers [512], batch size 64, learning rate/decay 0.5/0.8
+E1: 96.98%
+E2: 99.04%
+E3: 99.12%
+E4: 99.14%
+E5: 99.22%
+E6: 99.24%
+E7: 99.32%
+E8: 99.32%
+E9: 99.32%
+E10: 99.30%
+Achieved 99.30% accuracy after 10 epochs in time 04:49
+
+Training with linear layers [128], batch size 64, learning rate/decay 0.5/0.8
+E1: 98.59%
+E2: 98.93%
+E3: 99.12%
+E4: 99.16%
+E5: 99.03%
+E6: 99.21%
+E7: 99.20%
+E8: 99.17%
+E9: 99.26%
+E10: 99.15%
+E11: 99.22%
+E12: 99.18%
+E13: 99.20%
+Achieved 99.20% accuracy after 13 epochs in time 05:46
+
+Training with linear layers [64], batch size 64, learning rate/decay 0.5/0.8
+E1: 77.56%
+E2: 98.24%
+E3: 99.03%
+E4: 98.90%
+E5: 99.11%
+E6: 99.27%
+E7: 99.17%
+E8: 99.27%
+E9: 99.22%
+E10: 99.13%
+E11: 99.18%
+E12: 99.19%
+E13: 99.23%
+E14: 99.19%
+Achieved 99.19% accuracy after 14 epochs in time 06:10
+
+Training with linear layers [16], batch size 64, learning rate/decay 0.5/0.8
+E1: 98.35%
+E2: 97.44%
+E3: 99.03%
+E4: 99.12%
+E5: 99.07%
+E6: 99.10%
+E7: 99.17%
+E8: 99.18%
+E9: 99.24%
+E10: 99.20%
+Achieved 99.20% accuracy after 10 epochs in time 04:23
+
+Training with linear layers [1024], batch size 64, learning rate/decay 0.4/0.9
+E1: 98.42%
+E2: 98.74%
+E3: 98.86%
+E4: 99.03%
+E5: 99.02%
+E6: 99.18%
+E7: 99.16%
+E8: 99.20%
+E9: 99.12%
+E10: 99.23%
+E11: 99.22%
+E12: 99.27%
+E13: 99.27%
+Achieved 99.27% accuracy after 13 epochs in time 06:51
+
+Training with linear layers [512], batch size 64, learning rate/decay 0.4/0.9
+E1: 97.78%
+E2: 98.44%
+E3: 99.03%
+E4: 99.28%
+E5: 99.15%
+E6: 98.98%
+E7: 99.25%
+E8: 99.19%
+E9: 99.20%
+E10: 99.23%
+Achieved 99.23% accuracy after 10 epochs in time 04:49
+
+Training with linear layers [128], batch size 64, learning rate/decay 0.4/0.9
+E1: 97.84%
+E2: 98.79%
+E3: 98.98%
+E4: 99.13%
+E5: 99.14%
+E6: 99.16%
+E7: 99.19%
+Achieved 99.19% accuracy after 7 epochs in time 03:09
+
+Training with linear layers [64], batch size 64, learning rate/decay 0.4/0.9
+E1: 98.49%
+E2: 98.69%
+E3: 99.03%
+E4: 99.06%
+E5: 96.35%
+Achieved 96.35% accuracy after 5 epochs in time 02:13
+
+Training with linear layers [16], batch size 64, learning rate/decay 0.4/0.9
+E1: 96.26%
+E2: 98.45%
+E3: 98.74%
+E4: 98.37%
+E5: 98.87%
+E6: 99.04%
+E7: 98.73%
+E8: 98.98%
+E9: 99.05%
+E10: 98.98%
+E11: 99.02%
+Achieved 99.02% accuracy after 11 epochs in time 04:52
+
+Training with linear layers [1024], batch size 20, learning rate/decay 0.5/0.8
+E1: 98.35%
+E2: 98.79%
+E3: 99.21%
+E4: 99.12%
+E5: 99.27%
+E6: 99.34%
+E7: 99.34%
+E8: 99.36%
+E9: 99.35%
+-----------------------------------LOOK AT ME-----------------------------------
+Achieved 99.35% accuracy after 9 epochs in time 07:19
+-----------------------------------LOOK AT ME-----------------------------------
+
+Training with linear layers [512], batch size 20, learning rate/decay 0.5/0.8
+E1: 95.96%
+E2: 98.51%
+E3: 98.82%
+E4: 99.22%
+E5: 99.23%
+E6: 99.29%
+E7: 99.24%
+Achieved 99.24% accuracy after 7 epochs in time 04:24
+
+Training with linear layers [128], batch size 20, learning rate/decay 0.5/0.8
+E1: 98.26%
+E2: 98.67%
+E3: 98.66%
+E4: 98.67%
+E5: 99.00%
+E6: 99.09%
+E7: 99.12%
+E8: 99.12%
+E9: 99.18%
+E10: 99.15%
+Achieved 99.15% accuracy after 10 epochs in time 05:26
+
+Training with linear layers [64], batch size 20, learning rate/decay 0.5/0.8
+E1: 98.20%
+E2: 98.01%
+E3: 98.90%
+E4: 99.08%
+E5: 99.07%
+E6: 99.18%
+E7: 99.06%
+E8: 99.12%
+E9: 99.10%
+E10: 99.11%
+Achieved 99.11% accuracy after 10 epochs in time 05:17
+
+Training with linear layers [16], batch size 20, learning rate/decay 0.5/0.8
+E1: 94.49%
+E2: 97.40%
+E3: 98.18%
+E4: 98.62%
+E5: 98.55%
+E6: 98.92%
+E7: 98.80%
+E8: 98.88%
+E9: 98.81%
+E10: 98.97%
+E11: 98.90%
+E12: 98.93%
+E13: 98.93%
+Achieved 98.93% accuracy after 13 epochs in time 06:45
+
+Training with linear layers [16, 16, 16], batch size 64, learning rate/decay 0.6/0.8
+E1: 93.87%
+E2: 98.11%
+E3: 97.85%
+E4: 98.34%
+E5: 98.84%
+E6: 98.84%
+E7: 98.92%
+E8: 98.93%
+E9: 98.61%
+E10: 98.92%
+E11: 99.04%
+E12: 98.91%
+E13: 99.02%
+E14: 99.03%
+E15: 98.93%
+E16: 98.98%
+E17: 99.00%
+E18: 98.97%
+Achieved 98.97% accuracy after 18 epochs in time 07:45
+
+Training with linear layers [16, 16, 16, 16], batch size 64, learning rate/decay 0.6/0.8
+E1: 62.25%
+E2: 97.89%
+E3: 98.30%
+E4: 98.87%
+E5: 98.74%
+E6: 98.85%
+E7: 98.90%
+E8: 98.89%
+E9: 98.98%
+E10: 98.93%
+E11: 98.95%
+E12: 98.95%
+Achieved 98.95% accuracy after 12 epochs in time 05:11
+
+Training with linear layers [64, 64], batch size 64, learning rate/decay 0.6/0.8
+E1: 97.51%
+E2: 98.31%
+E3: 98.72%
+E4: 98.84%
+E5: 99.15%
+E6: 99.17%
+E7: 99.23%
+E8: 99.26%
+E9: 99.24%
+E10: 99.28%
+Achieved 99.28% accuracy after 10 epochs in time 04:21
+
+Training with linear layers [64, 32], batch size 64, learning rate/decay 0.6/0.8
+E1: 96.96%
+E2: 98.45%
+E3: 98.49%
+E4: 98.79%
+E5: 99.06%
+E6: 99.04%
+E7: 99.07%
+E8: 99.15%
+E9: 99.17%
+E10: 99.10%
+E11: 99.18%
+E12: 99.14%
+E13: 99.20%
+E14: 99.15%
+Achieved 99.15% accuracy after 14 epochs in time 06:07
+
