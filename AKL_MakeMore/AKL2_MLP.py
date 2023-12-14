@@ -3,8 +3,9 @@
 ## In this lecture an MLP model following Bengio, et al. is built,
 ## with focus on hyperparameter tuning and other ML essentials.
 ## With batch_size 256, emb_dim 15, a hidden 200-node linear layer,
-## 100,000 epochs, block_size 3, and learning_rate split .1/.01,
-## the test loss occasionally beats AK's 'challenge' value of 2.17,
+## 100,000 epochs, block_size 3, learning_rate split .1/.01,
+## and improved initialization, the test loss frequently beats AK's
+## 'challenge' value of 2.17, sometimes going as low as 2.12, and
 ## seemingly without overfit.  Some real names are generated!
 
 import torch
@@ -45,16 +46,17 @@ Xte = torch.tensor(Xte)
 Yte = torch.tensor(Yte)
 
 emb_dim = 15
+linear_layer_nodes = 200
 C = torch.randn((27, emb_dim))
-W1 = torch.randn((block_size*emb_dim, 200))
-b1 = torch.randn(200)
-W2 = torch.randn((200,27))
-b2 = torch.randn(27)
+W1 = torch.randn((block_size*emb_dim, linear_layer_nodes))
+b1 = torch.randn(linear_layer_nodes)
+W2 = torch.randn((linear_layer_nodes,27)) * .01
+b2 = torch.randn(27) * 0
 parameters = [C, W1, b1, W2, b2]
 for p in parameters:
     p.requires_grad = True
 
-for epoch in range(200000):
+for epoch in range(100000):
 
     batch_size = 256
 
