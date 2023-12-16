@@ -104,7 +104,7 @@ vocab_size = 27
 C = torch.randn((vocab_size, emb_dim))
 layers = [
     Linear(   emb_dim*block_size, num_hidden_nodes), Tanh(),
-    Linear(     num_hidden_nodes, num_hidden_nodes), Tanh(),
+    #Linear(     num_hidden_nodes, num_hidden_nodes), Tanh(),
     #Linear(     num_hidden_nodes, num_hidden_nodes), Tanh(),
     #Linear(     num_hidden_nodes, num_hidden_nodes), Tanh(),
     #Linear(     num_hidden_nodes, num_hidden_nodes), Tanh(),
@@ -123,7 +123,7 @@ for p in parameters:
     p.requires_grad = True
 
 
-batch_size = 32
+batch_size = 64
 max_steps = 200000
 lossi = []
 
@@ -204,3 +204,20 @@ for layer in layers:
 split_loss('train')
 split_loss('dev')
 split_loss('test')
+
+## Generating samples!!
+for _ in range(20):
+    out = []
+    context = [0]*block_size
+    while True:
+        emb = C[torch.tensor([context])]
+        x = emb.view(emb.shape[0], -1)
+        for layer in layers:
+            x = layer(x)
+        probs = F.softmax(x, dim = 1)
+        ix = torch.multinomial(probs, num_samples=1).item()
+        context = context[1:] + [ix]
+        if ix==0:
+            break
+        out.append(itos[ix])
+    print("".join(out))
