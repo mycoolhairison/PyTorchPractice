@@ -10,16 +10,18 @@ import torch.nn as nn
 from torch.nn import functional as F
 
 # hyperparameters
-batch_size = 32
+batch_size = 64
 block_size = 64
-max_iters = 1000
-eval_interval = 50
-learning_rate = .02
-n_embd = 64
-n_layer = 4
+max_iters = 500
+eval_interval = 25
+learning_rate = 1e-3
+n_embd = 192
+n_layer = 1
 n_head = 4
 eval_iters = 200
 dropout = .2
+save = True
+load = True
 ###
 
 # process data
@@ -186,18 +188,25 @@ class Head(nn.Module):
 
 
 m = BigramLanguageModel()
+if load:
+    m.load_state_dict(torch.load('model_weights.pth'))
 optimizer = torch.optim.AdamW(m.parameters(), lr=learning_rate)
 
-for iter in range(max_iters):
+for iter in range(1,max_iters+1):
     if iter % eval_interval == 0:
         losses = estimate_loss()
         print(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
+    elif iter%25==0:
+        print(f"step {iter}")
 
     xb, yb = get_batch('train')
     logits, loss = m(xb,yb)
     optimizer.zero_grad(set_to_none=True)
     loss.backward()
     optimizer.step()
+
+if save:
+    torch.save(m.state_dict(), 'model_weights.pth')
 
 context = torch.zeros((1,1),dtype=torch.long)
 print(decode(m.generate(context, max_new_tokens=500)[0].tolist()))
